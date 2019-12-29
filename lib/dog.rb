@@ -14,12 +14,12 @@ class Dog
   end 
   # get dog bark 
   def bark
-    puts "#{@bark}"
+    puts "woof!"
   end
   
-  #set dog bark 
-  def bark=(value)
-    @bark=value 
-  end 
+  # #set dog bark 
+  # def bark=(value)
+  #   @bark=value 
+  # end 
   
 end 
