@@ -1,7 +1,12 @@
 class Dog 
-  def initialize(name, bark)
-    @name = name 
-    @bark = bark 
+  # def initialize(name, bark)
+  #   @name = name 
+  #   @bark = bark 
+  # end 
+  
+  # set dog name 
+  def name=(value)
+    @name=value 
   end 
   # get dog name
   def name 
@@ -11,10 +16,7 @@ class Dog
   def bark
     puts "#{@bark}"
   end
-  # set dog name 
-  def name=(value)
-    @name=value 
-  end 
+  
   #set dog bark 
   def bark=(value)
     @bark=value 
